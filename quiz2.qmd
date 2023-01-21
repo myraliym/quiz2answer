@@ -5,6 +5,10 @@ editor: visual
 ---
 
 ```{r}
+gitcreds::gitcreds_set()
+```
+
+```{r}
 library(tidyverse) 
 
 midwest |>  
