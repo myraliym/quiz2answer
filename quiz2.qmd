@@ -9,7 +9,6 @@ gitcreds::gitcreds_set()
 ```
 
 ```{r}
-library(tidyverse) 
 
 midwest |>  
   ggplot(aes(x = poptotal, y = popdensity, color = state)) +   
